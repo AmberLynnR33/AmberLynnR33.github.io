@@ -1,18 +1,78 @@
 .header-section{
+    background-color: bisque;
     height: 200px;
 }
 .menu-section{
     height: 50px;
+    background-color: rgba(199, 193, 188, 0.2);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    border-bottom: dashed 1px gray;
 }
-.info-section-a{
+.info-section-a, .info-section-b{
     height: 300px;
     display: grid;
+    margin-bottom: 10px;
+}
+.info-section-a{
+    background-color: lightcyan;
     grid-template-columns: 1fr 2fr;
 }
 .info-section-b{
-    height: 300px;
-    display: grid;
+    background-color: lightgoldenrodyellow;
     grid-template-columns: 2fr 1fr;
+}
+.menu-bar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu-button {
+    color: rgb(97, 69, 21);
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: white;
+
+    border-color: rgb(211, 158, 79);
+    border-width: 2px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    cursor: pointer;
+    transition: background-color 0.8s;
+    width: 100%;
+}
+.menu-button:hover {
+    background-color: rgb(255, 227, 184);
+}
+.menu-button:active {
+    opacity: 0.9;
+}
+.subtitle-section-a {
+    border-right: dotted 1px gray;
+}
+.subtitle-section-b {
+    border-left: dotted 1px gray;
+}
+.subtitle-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+    height: 100%;
+    width: 100%;
+
+}
+.subtitle-writing {
+    font-family: Georgia;
+    font-size: 30px;
 }
