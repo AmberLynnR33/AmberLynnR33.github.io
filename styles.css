@@ -1,0 +1,18 @@
+.header-section{
+    height: 200px;
+}
+.menu-section{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.info-section-a{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.info-section-b{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
