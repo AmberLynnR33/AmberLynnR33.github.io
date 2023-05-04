@@ -52,7 +52,7 @@
     background-color: rgb(255, 227, 184);
 }
 .menu-button:active {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .subtitle-section-a {
     border-right: dotted 1px gray;
@@ -81,8 +81,8 @@
 .highlight-info {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 .listed-info {
