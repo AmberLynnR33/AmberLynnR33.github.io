@@ -1,11 +1,14 @@
 .header-section{
-    background-color: bisque;
+    background-color: rgb(255, 227, 184);
     height: 200px;
 }
 .menu-section{
     height: 50px;
     width: 100%;
-    background-color: rgba(199, 193, 188, 0.6);
+    background-color: rgb(255, 227, 184);
+    background-image: url("images/menu_bar.png");
+    background-position: center;
+    background-repeat: repeat-x;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10px;
@@ -96,4 +99,8 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+}
+.menu-bar-background {
+    height: 50px;
+
 }
