@@ -54,6 +54,7 @@
     background-color: rgb(255, 227, 184);
     background-image: url("images/background_main.png");
     background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
