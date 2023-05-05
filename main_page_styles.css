@@ -1,5 +1,4 @@
 .info-section-a, .info-section-b{
-    height: 300px;
     display: grid;
     margin-bottom: 10px;
 }
