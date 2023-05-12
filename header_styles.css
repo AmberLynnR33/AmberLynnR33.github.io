@@ -57,3 +57,8 @@
     background-repeat: repeat-x;
     background-position: center;
 }
+.disclaimer-band {
+    background-color: rgba(240, 187, 113, 0.95);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
