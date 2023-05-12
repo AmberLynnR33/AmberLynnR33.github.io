@@ -1,5 +1,4 @@
 .info-section-a, .info-section-b{
-    height: 300px;
     display: grid;
     margin-bottom: 10px;
 }
@@ -17,7 +16,7 @@
 .subtitle-section-b {
     border-left: dotted 2px rgba(213, 23, 27, 0.9);
 }
-.subtitle-main {
+.subtitle-section-a, .subtitle-section-b {
     display: flex;
     flex: 1;
     flex-direction: column;
