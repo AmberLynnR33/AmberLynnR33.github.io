@@ -1,13 +1,39 @@
-.textbox {
+.header-box, .info-box {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+.background-a{
+    background-color: rgba(240, 187, 113, 0.9);
+}
+.background-b {
+    background-color: rgba(242, 213, 137, 0.9);
+}
+.header-box {
     
     display: flex;
     flex: 1;
-    flex-direction: row;
-    background-color: rgba(240, 187, 113, 0.9);
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.info-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.view-project-button{
+    background: none;
+    font-family: Verdana;
+    border-color: rgb(237, 153, 87);
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    cursor: pointer;
+    transition: background-color 0.8s;
+    width: 100%;
+
 }

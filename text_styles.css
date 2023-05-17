@@ -1,8 +1,11 @@
-.subtitle-text {
+.subtitle-text, .centred-subtitle-text {
     font-family: Georgia;
     font-size: 25px;
     color: rgb(71, 8, 15);
     font-weight: bold;
+}
+.centred-subtitle-text{
+    text-align: center;
 }
 .listed-info {
     font-family: Verdana;
