@@ -65,9 +65,6 @@
     justify-content: center;
     align-items: center;
 }
-.centre-vertically{
-    align-items: normal;
-}
 .right-padding-box {
     padding-right: 10px;
 }
