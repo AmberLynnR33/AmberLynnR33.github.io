@@ -42,6 +42,10 @@
     width: 80%;
     height: 80%;
 
+    transition: background-color 0.8s;
+}
+.view-project-button:hover{
+    background-color: rgba(255, 225, 196, 0.5);
 }
 .button-border-red {
     border-color: rgb(213, 23, 27)
