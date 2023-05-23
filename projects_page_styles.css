@@ -28,7 +28,6 @@
 .view-project-button{
     background: none;
     font-family: Verdana;
-    border-color: rgb(237, 153, 87);
 
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,9 +43,15 @@
     height: 80%;
 
 }
+.button-border-red {
+    border-color: rgb(213, 23, 27)
+}
+.button-border-orange {
+    border-color: rgb(237, 153, 87);
+}
 .title-and-date {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .divider {
     border-left: dotted 2px rgba(213, 23, 27, 0.9);
@@ -62,4 +67,7 @@
 }
 .centre-vertically{
     align-items: normal;
+}
+.right-padding-box {
+    padding-right: 10px;
 }

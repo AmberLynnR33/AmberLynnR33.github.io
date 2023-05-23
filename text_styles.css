@@ -23,3 +23,6 @@
     font-size: 10px;
     color: rgb(71, 8, 15);
 }
+.right-align-text {
+    text-align: right;
+}
