@@ -21,19 +21,45 @@
 .info-box {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+
+    padding-left: 12px;
+
 }
 .view-project-button{
     background: none;
     font-family: Verdana;
     border-color: rgb(237, 153, 87);
 
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
     padding-top: 20px;
     padding-bottom: 20px;
 
     cursor: pointer;
     transition: background-color 0.8s;
-    width: 100%;
+    width: 80%;
+    height: 80%;
 
+}
+.title-and-date {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.divider {
+    border-left: dotted 2px rgba(213, 23, 27, 0.9);
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.centre-box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centre-vertically{
+    align-items: normal;
 }
