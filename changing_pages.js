@@ -14,3 +14,6 @@ function projectWebsite() {
 function projectDeerhacks2023(){
     window.open("https://github.com/AmberLynnR33/Deerhack2023")
 }
+function githubLink() {
+    window.open("https://github.com/AmberLynnR33")
+}
