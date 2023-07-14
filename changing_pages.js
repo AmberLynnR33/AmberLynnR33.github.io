@@ -8,3 +8,12 @@ function blogsMainPage() {
 function homePage() {
     window.location.href = "main_page.html"
 }
+function projectWebsite() {
+    window.open("https://github.com/AmberLynnR33/ambear-website")
+}
+function projectDeerhacks2023(){
+    window.open("https://github.com/AmberLynnR33/Deerhack2023")
+}
+function githubLink() {
+    window.open("https://github.com/AmberLynnR33")
+}

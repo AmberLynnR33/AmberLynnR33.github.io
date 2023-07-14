@@ -58,7 +58,36 @@
     background-position: center;
 }
 .disclaimer-band {
+    color: rgb(97, 69, 21);
     background-color: rgba(240, 187, 113, 0.95);
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.links-bar {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.links-button {
+
+    font-family: Verdana;
+    font-size: 14px;
+    color: rgb(97, 69, 21);
+
+    border-style: none;
+    background: none;
+
+    cursor: pointer;
+    transition: background-color 0.8s;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.links-button:hover {
+    opacity: 80%;
 }

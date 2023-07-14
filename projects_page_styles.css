@@ -1,13 +1,75 @@
-.textbox {
+.header-box, .info-box {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+.background-a{
+    background-color: rgba(240, 187, 113, 0.9);
+}
+.background-b {
+    background-color: rgba(242, 213, 137, 0.9);
+}
+.header-box {
     
     display: flex;
     flex: 1;
-    flex-direction: row;
-    background-color: rgba(240, 187, 113, 0.9);
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.info-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    padding-left: 12px;
+
+}
+.view-project-button{
+    background: none;
+    font-family: Verdana;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    cursor: pointer;
+    transition: background-color 0.8s;
+    width: 80%;
+    height: 80%;
+
+    transition: background-color 0.8s;
+}
+.view-project-button:hover{
+    background-color: rgba(255, 225, 196, 0.5);
+}
+.button-border-red {
+    border-color: rgb(213, 23, 27)
+}
+.button-border-orange {
+    border-color: rgb(237, 153, 87);
+}
+.title-and-date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.divider {
+    border-left: dotted 2px rgba(213, 23, 27, 0.9);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+}
+.centre-box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-padding-box {
+    padding-right: 10px;
 }
