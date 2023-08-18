@@ -1,6 +1,14 @@
-.header-section{
-    background-color: rgb(255, 227, 184);
+.header-section {
     background-image: url("images/welcome_banner.png");
+}
+.header-section-blog {
+    background-image: url("images/blog_header.PNG");
+}
+.header-section-projects {
+    background-image: url("images/projects_header.PNG");
+}
+.header-section, .header-section-blog, .header-section-projects {
+    background-color: rgb(255, 227, 184);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
