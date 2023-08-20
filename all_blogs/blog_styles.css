@@ -41,7 +41,8 @@
 .menu-bar {
     display: grid;
     grid-template-columns: 1fr;
-
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .blog-main {
     padding-top: 20px;
