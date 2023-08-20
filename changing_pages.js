@@ -5,7 +5,7 @@ function blogsMainPage() {
     window.location.href = "blog_main_page.html"
 }
 function homePage() {
-    window.location.href = "main_page.html"
+    window.location.href = "index.html"
 }
 function projectWebsite() {
     window.open("https://github.com/AmberLynnR33/ambear-website")
