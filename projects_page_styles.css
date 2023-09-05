@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
 
-    padding-left: 12px;
+    padding-left: 20px;
 
 }
 .view-project-button{
@@ -72,4 +72,7 @@
 }
 .right-padding-box {
     padding-right: 10px;
+}
+.accomplishments-list {
+    padding-right: 20px;
 }
