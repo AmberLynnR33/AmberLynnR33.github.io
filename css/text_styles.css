@@ -1,27 +1,27 @@
+.main-text {
+    font-family: Verdana;
+    font-size: 18px;
+    color: rgb(13, 24, 34);
+}
 .subtitle-text, .centred-subtitle-text {
     font-family: Georgia;
     font-size: 25px;
-    color: rgb(71, 8, 15);
+    color: rgb(13, 24, 34);
     font-weight: bold;
 }
 .centred-subtitle-text{
     text-align: center;
 }
-.listed-info {
-    font-family: Verdana;
-    font-size: 16px;
-    color: rgb(112, 7, 19);
-}
-.header-for-points-font{
-    font-family: Georgia;
-    font-size: 18px;
-    line-height: 20px;
-    color: rgb(71, 8, 15);
+.header-text{
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(13, 24, 34);
 }
 .small-text {
     font-family: Verdana;
-    font-size: 10px;
-    color: rgb(71, 8, 15);
+    font-size: 12px;
+    color: rgb(13, 24, 34);
 }
 .right-align-text {
     text-align: right;

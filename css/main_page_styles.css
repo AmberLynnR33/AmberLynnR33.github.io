@@ -1,17 +1,21 @@
 .info-section-a, .info-section-b{
     display: grid;
 
-    margin-top: 10px;
+    min-height: 450px;
+    border-radius: 15px;
+
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 .info-section-a{
-    background-color: rgba(240, 187, 113, 0.9);
+    background-color: rgba(188, 186, 221, 0.9);
+
     grid-template-columns: 1fr 2fr;
 }
 .info-section-b{
-    background-color: rgba(242, 213, 137, 0.9);
+    background-color: rgba(255, 227, 184, 0.9);
     grid-template-columns: 2fr 1fr;
 }
 .subtitle-section-a {
@@ -30,8 +34,9 @@
     background: none;
 }
 .subtitle-photo {
+    border-radius: 5px;
     margin-top: 20px;
-    height: 200px;
+    max-height: 300px;
 }
 .highlight-info {
     margin-top: 20px;
