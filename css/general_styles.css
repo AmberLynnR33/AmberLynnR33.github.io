@@ -72,7 +72,7 @@ html, body {
     background-color: rgb(255, 245, 227);
 }
 .disclaimer-band {
-    color: rgb(97, 69, 21);
+    color: rgb(13, 24, 34);
     background-color: rgba(209, 223, 206, 0.95);
     display: grid;
     grid-template-columns: 2fr 1fr;
