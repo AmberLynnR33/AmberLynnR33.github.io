@@ -111,3 +111,6 @@ html, body {
 .add-upper-padding{
     padding-top: 20px;
 }
+.add-bulletpoint-spacing{
+    line-height: 30px;
+}
