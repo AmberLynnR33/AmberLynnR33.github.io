@@ -19,10 +19,10 @@
     grid-template-columns: 2fr 1fr;
 }
 .subtitle-section-a {
-    border-right: dotted 2px rgba(213, 23, 27, 0.9);
+    border-right: dotted 2px rgba(13, 24, 34, 0.9);
 }
 .subtitle-section-b {
-    border-left: dotted 2px rgba(213, 23, 27, 0.9);
+    border-left: dotted 2px rgba(13, 24, 34, 0.9);
 }
 .subtitle-section-a, .subtitle-section-b {
     display: flex;

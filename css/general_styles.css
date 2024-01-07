@@ -35,7 +35,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10px;
-    border: dashed 1px gray;
+    border: dotted 2px rgb(13, 24, 34);
 }
 .menu-bar {
     display: flex;
