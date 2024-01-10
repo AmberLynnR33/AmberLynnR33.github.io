@@ -45,28 +45,31 @@ html, body {
     justify-content: center;
 }
 .menu-button {
-    color: rgb(97, 69, 21);
+    color: rgb(13, 24, 34);
     font-family: Verdana;
     font-size: 20px;
-    background-color: rgb(255, 252, 249);
+    background-color: rgb(255, 245, 227);
 
-    border-color: rgb(211, 158, 79);
-    border-width: 2px;
+    border-color: rgb(13, 24, 34);
+    border-width: 3px;
+    border-radius: 5px;
 
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
 
     cursor: pointer;
     transition: background-color 0.8s;
     width: 100%;
 }
 .menu-button:hover {
-    background-color: rgb(255, 227, 184);
+    background-color: rgb(209, 223, 206);
 }
 .menu-button:active {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .background {
     background-color: rgb(255, 245, 227);

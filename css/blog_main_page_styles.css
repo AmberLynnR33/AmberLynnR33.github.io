@@ -7,7 +7,10 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    background-color: rgba(240, 187, 113, 0.9);
+
+    background-color: rgba(188, 186, 221, 0.9);
+    border-radius: 5px;
+
     align-items: center;
     justify-content: center;
 }
