@@ -2,34 +2,40 @@ html, body {
     margin: 0;
 
 }
-.header-section {
-    background-image: url("images/welcome_banner.png");
-}
-.header-section-blog {
-    background-image: url("images/blog_header.PNG");
-}
-.header-section-projects {
-    background-image: url("images/projects_header.PNG");
-}
 .header-section, .header-section-blog, .header-section-projects {
-    background-color: rgb(255, 227, 184);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../images/header/header_vines.PNG");
+    background-color: rgb(255, 245, 227);
+    background-repeat: repeat-x;
+    background-position: top;
     background-size: contain;
-    height: 200px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    height: 550px;
+}
+.header_image {
+    height: 250px;
+}
+.header_welcome_image {
+    height: 320px;
 }
 .menu-section{
     height: 50px;
     width: 100%;
     background-color: rgb(255, 227, 184);
-    background-image: url("images/menu_bar.png");
+    background-image: url("../images/menu_background/menu_bar_2.PNG");
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10px;
-    border: dashed 1px gray;
+    border: dotted 2px rgb(13, 24, 34);
 }
 .menu-bar {
     display: flex;
@@ -39,39 +45,38 @@ html, body {
     justify-content: center;
 }
 .menu-button {
-    color: rgb(97, 69, 21);
+    color: rgb(13, 24, 34);
     font-family: Verdana;
     font-size: 20px;
-    background-color: rgb(255, 252, 249);
+    background-color: rgb(255, 245, 227);
 
-    border-color: rgb(211, 158, 79);
-    border-width: 2px;
+    border-color: rgb(13, 24, 34);
+    border-width: 3px;
+    border-radius: 5px;
 
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
 
     cursor: pointer;
     transition: background-color 0.8s;
     width: 100%;
 }
 .menu-button:hover {
-    background-color: rgb(255, 227, 184);
+    background-color: rgb(209, 223, 206);
 }
 .menu-button:active {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .background {
-    background-color: rgb(255, 227, 184);
-    background-image: url("images/background_main.png");
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
-    background-position: center;
+    background-color: rgb(255, 245, 227);
 }
 .disclaimer-band {
-    color: rgb(97, 69, 21);
-    background-color: rgba(240, 187, 113, 0.95);
+    color: rgb(13, 24, 34);
+    background-color: rgba(209, 223, 206, 0.95);
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-left: 20px;
@@ -102,4 +107,13 @@ html, body {
 }
 .links-button:hover {
     opacity: 80%;
+}
+.add-lower-padding {
+    padding-bottom: 20px;
+}
+.add-upper-padding{
+    padding-top: 20px;
+}
+.add-bulletpoint-spacing{
+    line-height: 30px;
 }

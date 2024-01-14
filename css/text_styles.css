@@ -1,0 +1,28 @@
+.main-text {
+    font-family: Verdana;
+    font-size: 18px;
+    color: rgb(13, 24, 34);
+}
+.subtitle-text, .centred-subtitle-text {
+    font-family: Georgia;
+    font-size: 30px;
+    color: rgb(13, 24, 34);
+    font-weight: bold;
+}
+.centred-subtitle-text{
+    text-align: center;
+}
+.header-text{
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(13, 24, 34);
+}
+.small-text {
+    font-family: Verdana;
+    font-size: 14px;
+    color: rgb(13, 24, 34);
+}
+.right-align-text {
+    text-align: right;
+}

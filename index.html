@@ -4,35 +4,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="header_styles.css">
-        <link rel="stylesheet" href="main_page_styles.css">
-        <link rel="stylesheet" href="text_styles.css">
-        <title>Welcome</title>
+        <link rel="stylesheet" href="css/general_styles.css">
+        <link rel="stylesheet" href="css/main_page_styles.css">
+        <link rel="stylesheet" href="css/text_styles.css">
+        <title>Amber R's Site; Welcome!</title>
     </head>
     <body>
         <div class="background">
             <div class="header-section">
+                <img class="header_welcome_image" src="images/header/header_welcome.PNG">
             </div>
             <div>
                 <div class="menu-section">
                     <div></div>
                     <div class="menu-bar">
-                        <button onclick="projectsPage()" class="menu-button">Projects</button>
-                        <button onclick="blogsMainPage()" class="menu-button">Blog</button>
+                        <button id="proj_from_ind" class="menu-button">Projects</button>
+                        <button id="blog_from_ind" class="menu-button">Blog</button>
                     </div>
                     <div></div>
                 </div>
 
                 <div class="info-section-a">
                     <div class="subtitle-section-a">
-                        <img class="subtitle-photo" src="images/self_portrait.png">
+                        <img class="subtitle-photo" src="images/index/self_portrait.png">
                         <p class="subtitle-text">About Me</p>
                     </div>
                     <div class="highlight-info">
-                        <h2 class="header-for-points-font">
+                        <h2 class="header-text add-upper-padding add-lower-padding">
                             Hello, and welcome! <br>
                         </h2>
-                        <p class="listed-info">
+                        <p class="main-text">
                             My name is Amber Richardson, and I'm going into my second year at UofT, majoring in Computer Science, 
                             with a minor in Math and a minor in Professional Writing and Communication.
                             <br><br>
@@ -50,75 +51,60 @@
 
                 <div class="info-section-b">
                     <div class="highlight-info">
-                        <h2 class="header-for-points-font">
+                        <h2 class="main-text add-upper-padding">
                             High School Education: OSSD, Ontario Scholar, 2018 - 2022
                             <br>
                             University Education: University of Toronto, 2022 - present
-                            <br><br>
+                        </h2>
+                        <h2 class="header-text">
                             Some of my academic achievements include: <br>
                         </h2>
-                        <p class="listed-info">
-                            &#x2022 Training for and becoming a Youth Facilitator for Healthy Youth Relationships through the Red Cross (2019),
-                            <br>
-                            &#x2022 Becoming the Deputy Editor in Chief of my high school's yearbook (2021-2022),
-                            <br>
-                            &#x2022 Receiving the Principal's Entrance Award, Ontario Hockey Association War Memorial Scholarship, and Bennett Scholarship at UofT in my first year (2022),
-                            <br>
-                            &#x2022 Being selected to partake in a Research Opportunity Program course for my second year at UofT (2023).
-                        </p>
+                        <ul class="main-text add-bulletpoint-spacing">
+                            <li> Training for and becoming a Youth Facilitator for Healthy Youth Relationships through the Red Cross (2019), </li>
+                            <li> Becoming the Deputy Editor in Chief of my high school's yearbook (2021-2022),</li>
+                            <li> Receiving the Principal's Entrance Award, Ontario Hockey Association War Memorial Scholarship, and Bennett Scholarship at UofT in my first year (2022), </li>
+                            <li> Being selected to partake in a Research Opportunity Program course for my second year at UofT (2023). </li>
+                        </ul>
                         <p class="small-text">
                             Right: a tree with yellow leaves. There is a wood building behind the tree, with a red-leaved tree and a glass building in the distance.
                         </p>
                     </div>
                     <div class="subtitle-section-b">
-                        <img class="subtitle-photo" src="images/university_buildings.jpg">
+                        <img class="subtitle-photo" src="images/index/university_buildings.jpg">
                         <p class="subtitle-text">Academics</p>
                     </div>
                 </div>
 
                 <div class="info-section-a">
                     <div class="subtitle-section-a">
-                        <img class="subtitle-photo" src="images/yellow_flowers.jpg">
+                        <img class="subtitle-photo" src="images/index/yellow_flowers.jpg">
                         <p class="subtitle-text">Coding</p>
                     </div>
                     <div class="highlight-info">
-                        <h2 class="header-for-points-font">
+                        <h2 class="header-text add-upper-padding">
                             I have experience with: <br>
                         </h2>
-                        <p class="listed-info"> 
-                            &#x2022 Python 3.x (Since 2019) 
-                            <br>
-                            &#x2022 Java (Since 2020) 
-                            <br>
-                        <h2 class="header-for-points-font">
+                        <ul class="main-text add-bulletpoint-spacing"> 
+                            <li> Python 3.x </li>
+                            <li> Java </li>
+                        </ul>
+                        <h2 class="header-text">
                             I am currently learning: <br>
                         </h2>
-                        <p class="listed-info">
-                            &#x2022 Javascript (along with HTML and CSS) 
-                            <br>
-                        </p>
-                        <h2 class="header-for-points-font">
-                            I want to learn: <br>
-                        </h2>
-                        <p class="listed-info">
-                            &#x2022 C 
-                            <br>
-                            &#x2022 C++ or C#
-                            <br>
-                        </p>
-                        <h2 class="header-for-points-font">
+                        <ul class="main-text add-bulletpoint-spacing">
+                            <li> Javascript </li>
+                            <li> C </li>
+                        </ul>
+                        <h2 class="header-text">
                             I find these subfields of computer science most fascinating: <br>
                         </h2>
-                        <p class="listed-info">
-                            &#x2022 Computer Science education
-                            <br>
-                            &#x2022 Cybersecurity
-                            <br>
-                            &#x2022 Web Development
-                            <br> 
-                            &#x2022 Game Development
+                        <ul class="main-text add-bulletpoint-spacing">
+                            <li> Computer science education </li>
+                            <li> Website Development </li>
+                            <li> Game development </li>
+                            <li> Cybersecurity </li>
                         </p>
-                        <p class="small-text">
+                        <p class="small-text add-lower-padding">
                             Left: a small yellow flower with five petals is in focus, with leaves and more yellow flowers out of focus
                         </p>
                     </div>
@@ -126,37 +112,28 @@
 
                 <div class="info-section-b">
                     <div class="highlight-info">
-                        <h2 class="header-for-points-font">
+                        <h2 class="header-text add-upper-padding">
                             My hobbies include: <br>
                         </h2>
-                        <p class="listed-info">
-                            &#x2022 Crocheting (right: a shawl I crocheted),
-                            <br>
-                            &#x2022 Writing,
-                            <br>
-                            &#x2022 Playing video games such as Animal Crossing, Stardew Valley, Raft, The Sims 4, Minecraft, or Just Dance,
-                            <br>
-                            &#x2022 Applying math and coding to my real life,
-                            <br>
-                            &#x2022 Watching Youtube to relax and to learn new things about the world around me.
-                        </p>
-                        <h2 class="header-for-points-font">
+                        <ul class="main-text add-bulletpoint-spacing">
+                            <li> Crocheting (right: a shawl I crocheted), </li>
+                            <li> Writing, </li>
+                            <li> Playing video games such as Animal Crossing, Stardew Valley, Raft, The Sims 4, or Minecraft, </li>
+                            <li> Applying math and coding to my real life. </li>
+                        </ul>
+                        <h2 class="header-text">
                             Fun facts: <br>
                         </h2>
-                        <p class="listed-info">
-                            &#x2022 I would like to learn basic sewing and embroidery,
-                            <br>
-                            &#x2022 My favourite cartoon character is Snoopy,
-                            <br>
-                            &#x2022 I love food; I always have a snack on hand,
-                            <br>
-                            &#x2022 I mostly read non-fiction, because fiction leads to unhealthy reading binges,
-                            <br>
-                            &#x2022 I knew I wanted to study computer science after completing a Rube Goldberg Machine in Scratch for a grade 8 science project.
-                        </p>
+                        <ul class="main-text add-bulletpoint-spacing">
+                            <li> I know the basics of sewing, embroidery and knitting </li>
+                            <li> My favourite cartoon character is Snoopy, </li>
+                            <li> I love food; I always have a snack on hand, </li>
+                            <li> I prefer reading memoirs and manuals, </li>
+                            <li> I knew I wanted to study computer science after completing a Rube Goldberg Machine in Scratch for a grade 8 science project. </li>
+                        </ul>
                     </div>
                     <div class="subtitle-section-b">
-                        <img class="subtitle-photo" src="images/crochet_shawl.jpg">
+                        <img class="subtitle-photo" src="images/index/crochet_shawl.jpg">
                         <p class="subtitle-text">Personal</p>
                     </div>
                 </div>
@@ -174,6 +151,7 @@
                 </div>
             </div>
         </div>
-        <script src="changing_pages.js"></script>
+        <script src="javascript/index_menu.js"></script>
+        <script src="javascript/changing_pages.js"></script>
     </body>
 </html>
