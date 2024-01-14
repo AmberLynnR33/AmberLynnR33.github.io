@@ -27,7 +27,7 @@ html, body {
 .menu-section{
     height: 50px;
     width: 100%;
-    background-color: rgb(255, 227, 184);
+    background-color: rgb(255, 245, 227);
     background-image: url("../images/menu_background/menu_bar_2.PNG");
     background-position: center;
     background-repeat: repeat-x;
