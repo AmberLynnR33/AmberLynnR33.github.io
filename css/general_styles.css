@@ -94,7 +94,8 @@ html, body {
 
     font-family: Verdana;
     font-size: 14px;
-    color: rgb(97, 69, 21);
+    color: rgb(13, 24, 34);
+    text-decoration: underline;
 
     border-style: none;
     background: none;
