@@ -27,7 +27,7 @@ html, body {
 .menu-section{
     height: 50px;
     width: 100%;
-    background-color: rgb(255, 227, 184);
+    background-color: rgb(255, 245, 227);
     background-image: url("../images/menu_background/menu_bar_2.PNG");
     background-position: center;
     background-repeat: repeat-x;
@@ -88,25 +88,10 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-}
-.links-button {
+    gap: 30px;
 
     font-family: Verdana;
-    font-size: 14px;
-    color: rgb(97, 69, 21);
-
-    border-style: none;
-    background: none;
-
-    cursor: pointer;
-    transition: background-color 0.8s;
-
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.links-button:hover {
-    opacity: 80%;
+    font-size: 15px;
 }
 .add-lower-padding {
     padding-bottom: 20px;
