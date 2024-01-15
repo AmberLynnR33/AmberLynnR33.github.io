@@ -18,6 +18,10 @@
     line-height: 30px;
     color: rgb(13, 24, 34);
 }
+.links {
+    color: rgb(13, 24, 34);
+    text-decoration: underline;
+}
 .small-text {
     font-family: Verdana;
     font-size: 14px;
