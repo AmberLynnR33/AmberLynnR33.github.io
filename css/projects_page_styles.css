@@ -6,10 +6,13 @@
     border-radius: 5px;
 }
 .background-a{
-    background-color: rgba(188, 186, 221, 0.9);
+    background-color: rgba(188, 186, 221, 0.7);
 }
 .background-b {
     background-color: rgba(255, 227, 184, 0.9);
+}
+.background-c {
+    background-color: rgba(209, 223, 206, 0.95);
 }
 .header-box {
     
