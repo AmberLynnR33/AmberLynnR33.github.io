@@ -74,6 +74,15 @@ html, body {
 .background {
     background-color: whitesmoke
 }
+.background-a{
+    background-color: rgba(188, 186, 221, 0.7);
+}
+.background-b {
+    background-color: rgba(255, 227, 184, 0.9);
+}
+.background-c {
+    background-color: rgba(209, 223, 206, 0.95);
+}
 .disclaimer-band {
     color: rgb(13, 24, 34);
     background-color: rgba(209, 223, 206, 0.95);

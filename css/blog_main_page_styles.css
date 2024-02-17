@@ -1,4 +1,4 @@
-.textbox {
+.blog-section-list {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -11,11 +11,21 @@
     
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
 
-    background-color: rgba(188, 186, 221, 0.9);
     border-radius: 5px;
 
     align-items: center;
     justify-content: center;
+}
+.blog-button {
+    padding: 10px 20px;
+    width: 95%;
+
+    color: rgb(13, 24, 34);
+    font-size: 20px;
+    background-color: transparent;
+
+    border-width: 0px;
+    cursor: pointer;
 }
