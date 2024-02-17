@@ -1,25 +1,16 @@
-.title-text .title-details-text{
-    font-family: Georgia;
-    color: rgb(71, 8, 15);
-    font-weight: bold;
+.top-margin {
+    padding-top: 50px;
 }
-.title-text {
-    font-size: 30px;
-    text-align: right;
-
+.blog-background {
+    background: rgb(255,227,184);
+    background: linear-gradient(0deg, rgba(255,227,184,0.9) 0%, rgba(188,186,221,0.7) 100%);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .title-details-text {
     font-size: 12px;
-    padding-right: 6px;
-    padding-left: 6px;
-}
-.blog-text {
-    color: rgb(71, 8, 15);
-    font-family: Verdana;
-    font-size: 15px;
-}
-.blog-background {
-    background-color: rgb(255, 227, 184);
+    padding: 3px;
+    font-weight: bold;
 }
 .title-bar {
     display: grid;
@@ -28,9 +19,7 @@
 .title-info-div {
     display: grid;
     grid-template-columns: 1fr;
-
-    padding-left: 20px;
-    padding-right: 32px;
+    padding-right: 10px;
 }
 .title-details-div {
     display: flex;
@@ -41,12 +30,8 @@
 .menu-bar {
     display: grid;
     grid-template-columns: 1fr;
-    padding-top: 20px;
-    padding-left: 20px;
 }
 .blog-main {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
