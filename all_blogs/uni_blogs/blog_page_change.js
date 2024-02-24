@@ -1,13 +1,13 @@
 function homePage() {
-    var newLocation = "../index.html";
+    var newLocation = "../../index.html";
     window.location.href = newLocation;
 }
 function projectsPage() {
-    var newLocation = "../html/projects_page.html";
+    var newLocation = "../../html/projects_page.html";
     window.location.href = newLocation;
 }
 function blogsMainPage() {
-    var newLocation = "../html/blog_main_page.html";
+    var newLocation = "../../html/blog_main_page.html";
     window.location.href = newLocation;
 }
 
