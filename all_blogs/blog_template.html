@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../header_styles.css">
+    <link rel="stylesheet" href="../css/general_styles.css">
+    <link rel="stylesheet" href="../css/text_styles.css">
     <link rel="stylesheet" href="blog_styles.css">
     <title>Blog</title>
 </head>
 <body>
     <div class="blog-background">
-        <div class="title-bar">
+        <div class="top-margin"></div>
+        <div class="side-bar">
             <div class="menu-bar">
-                <button onclick="homePage()" class="menu-button">Home</button>
-                <button onclick="blogsMainPage()" class="menu-button">Blog</button>
-                <button onclick="projectsPage()" class="menu-button">Projects</button>
+                <button id="blog_to_blog_main" class="menu-button"> All Blogs </button>
+                <button id="blog_to_home" class="menu-button"> Home </button>
+                <button id="blog_to_proj" class="menu-button"> Projects </button>
 
             </div>
             <div class="title-info-div">
-                <p class="title-text">
+                <p class="extra-large-font right-align-text">
                     Title Here
                 </p>
                 <div class="title-details-div">
-                    <p class="title-details-text">Amber Richardson</p>
-                    <p class="title-details-text">&#x2022</p>
+                    <p class="main-text title-details-text">Amber Richardson</p>
+                    <p class="main-text title-details-text">&#x2022</p>
 
-                    <p class="title-details-text">Created: Month Day, Year</p>
-                    <p class="title-details-text">&#x2022</p>
+                    <p class="main-text title-details-text">Created: Month Day, Year</p>
+                    <p class="main-text title-details-text">&#x2022</p>
 
-                    <p class="title-details-text">Last Edited: Month Day, Year</p>
+                    <p class="main-text title-details-text">Last Edited: Month Day, Year</p>
                     
                 </div>
             </div>
         </div>
         <div class="blog-main">
-            <p class="blog-text">
+            <p class="small-text">
                 This is blog text.
                 This is blog text.
                 This is blog text.
@@ -71,22 +73,21 @@
             </p>
 
         </div>
-
-        <div class="disclaimer-band">
-            <p class="small-text">
-                This site is solely created by me, Amber Richardson. 
-                This includes the site itself, written text, photographs, and drawings. 
-                This site will be hosted using Github Pages.
-                If you encounter any issues on this site, you should be able to let me know by
-                adding a new issue to the "issues" tab of this website's Github repository. 
-            </p>
-            <div class="links-bar">
-                <button onclick="githubLink()" class="links-button">Github</button>
-            </div>
-        </div>
-
     </div>
-    <script src="../changing_pages.js"></script>
+    <div class="disclaimer-band">
+        <p class="small-text">
+            This site and it's contents, excluding cited material, is created by Amber Richardson.
+            <br>
+            This site is hosted using Github Pages. 
+            If you encounter bugs, please let me know:
+            <br>
+            Click Github (on the right) -> Repositories -> AmberLynnR33.github.io -> Issues -> New Issue
+        </p>
+        <div class="links-bar">
+            <a href="https://github.com/AmberLynnR33" target="_blank" ref="noreferrer, noopener" class="links">Github</a>
+            <a href="https://linkedin.com/in/jessica-richardson-588a87291" target="_blank" ref="noreferrer, noopener" class="links">LinkedIn</a>
+        </div>
+    </div>
     <script src="blog_page_change.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ html, body {
 }
 .header-section, .header-section-blog, .header-section-projects {
     background-image: url("../images/header/header_vines.PNG");
-    background-color: rgb(255, 245, 227);
+    background-color: whitesmoke;
     background-repeat: repeat-x;
     background-position: top;
     background-size: contain;
@@ -27,7 +27,7 @@ html, body {
 .menu-section{
     height: 50px;
     width: 100%;
-    background-color: rgb(255, 245, 227);
+    background-color: whitesmoke;
     background-image: url("../images/menu_background/menu_bar_2.PNG");
     background-position: center;
     background-repeat: repeat-x;
@@ -48,7 +48,7 @@ html, body {
     color: rgb(13, 24, 34);
     font-family: Verdana;
     font-size: 20px;
-    background-color: rgb(255, 245, 227);
+    background-color: whitesmoke;
 
     border-color: rgb(13, 24, 34);
     border-width: 3px;
@@ -72,7 +72,16 @@ html, body {
     opacity: 0.7;
 }
 .background {
-    background-color: rgb(255, 245, 227);
+    background-color: whitesmoke
+}
+.background-a{
+    background-color: rgba(188, 186, 221, 0.7);
+}
+.background-b {
+    background-color: rgba(255, 227, 184, 0.9);
+}
+.background-c {
+    background-color: rgba(209, 223, 206, 0.95);
 }
 .disclaimer-band {
     color: rgb(13, 24, 34);
