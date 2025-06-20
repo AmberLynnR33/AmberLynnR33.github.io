@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+
+}
+
+.header_main{
+    padding: 5%;
+    background-color: antiquewhite;
+}
+
+.title_text{
+    font-family: Geneva;
+
+}
+
+.stackable_container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.stacked_layout{
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    justify-content: center;
+}
+
+.unstacked_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar_style{
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    justify-content: space-between;
+}
