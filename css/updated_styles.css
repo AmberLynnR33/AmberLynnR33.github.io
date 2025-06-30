@@ -5,19 +5,44 @@ body{
 
 .header_main{
     padding: 5%;
-    background-color: antiquewhite;
+    background-color: rgb(248, 243, 236);
 }
 
 .title_text{
     font-family: Geneva;
+    font-size: xx-large;
+}
 
+.subtitle_text {
+    padding: 0px 10px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.main_text{
+    padding: 0px 10px;
+    font-size: 18px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+
+.center_align_text {
+    text-align: center;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+.center_align{
+    align-items: center;
+    justify-content: center;
 }
 
 .stackable_container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .stacked_layout{
@@ -25,6 +50,7 @@ body{
     grid-template-columns: 1fr; 
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .unstacked_navbar{
@@ -38,4 +64,39 @@ body{
     grid-template-columns: 1fr; 
     align-items: center;
     justify-content: space-between;
+    padding-right: 10%;
+}
+
+.navbar_links {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 17pt;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 8px;
+
+}
+
+.navbar_links:hover {
+    background-color: rgb(231, 226, 222);
+
+}
+
+.pad_boxes {
+    margin: 40px 0px;
+
+}
+
+.image {
+    border-radius: 5px;
+    max-height:180px;
+    border-image: round;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.right_divider {
+    border-right: thin solid #000000;
 }
