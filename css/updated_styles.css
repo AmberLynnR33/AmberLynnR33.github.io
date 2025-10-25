@@ -35,7 +35,8 @@ body{
 
 .links {
     color: rgb(13, 24, 34);
-    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .center_align_text {
